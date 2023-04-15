@@ -19,6 +19,11 @@
   (interactive)
   (message "Goodbye, World!"))
 
+(defun some-world ()
+  "Print 'Some, World!' to the message buffer."
+  (interactive)
+  (message "Some, World!"))
+
 (provide 'hello)
 
 ;;; hello.el ends here

@@ -12,3 +12,9 @@ Load it:
 (use-package hello
   :commands (hello-world))
 #+end_src
+
+Keep updated:
+
+#+begin_src sh
+doom sync -u
+#+end_src
