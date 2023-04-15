@@ -14,7 +14,7 @@
   (interactive)
   (message "Hello, World!"))
 
-(defun goodbye-world ()
+(defun hello-goodbye-world ()
   "Print 'Goodbye, World!' to the message buffer."
   (interactive)
   (message "Goodbye, World!"))
