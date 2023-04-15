@@ -1,4 +1,7 @@
-;;; hello.el --- A package that prints "Hello, World!" to the message buffer.
+;;; hello.el --- A package that prints "Hello, World!" to the message buffer -*- lexical-binding: t; -*-
+
+;; URL: https://github.com/staticaland/hello.el
+;; Version: 0.2.0
 
 ;;; Commentary:
 
