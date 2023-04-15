@@ -1,0 +1,14 @@
+* hello.el
+
+Install the package with Doom Emacs:
+
+#+begin_src elisp
+(package! hello :recipe (:host github :repo "staticaland/hello.el"))
+#+end_src
+
+Load it:
+
+#+begin_src elisp
+(use-package hello
+  :commands (hello-world))
+#+end_src
